@@ -47,7 +47,7 @@ function BMIKalk () {
     } else if (bmi < 25) {
       results.innerHTML = bmi + " - Normal vekt";
     } else if (bmi < 30) {
-      results.innerHTML = bmi + " - Før-overvekt";
+      results.innerHTML = bmi + " - Nesten-overvekt";
     } else if (bmi < 35) {
       results.innerHTML = bmi + " - Overvekt Klasse I";
     } else if (bmi < 40) {
