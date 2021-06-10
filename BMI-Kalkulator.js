@@ -1,4 +1,4 @@
-function BMIKalk () {
+function measureBMI () {
     let unit = document.getElementById("bmi-metric").checked,
         weight = document.getElementById("bmi-weight"),
         weightu = document.getElementById("bmi-weight-unit"),
@@ -22,7 +22,7 @@ function BMIKalk () {
     }
   }
   
-  function BMIKalk () {
+  function calcBMI () {
    
     let bmi = null,
         unit = document.getElementById("bmi-metric").checked, 
