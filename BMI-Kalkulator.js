@@ -28,7 +28,7 @@ function measureBMI () {
         unit = document.getElementById("bmi-metric").checked, 
         weight = parseInt(document.getElementById("bmi-weight").value),
         height = parseInt(document.getElementById("bmi-height").value),
-        results = document.getElementById("bmi-resultat");
+        results = document.getElementById("bmi-results");
   
     
     if (unit) {
