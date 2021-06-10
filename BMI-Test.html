@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      BMI-Kalkulator
+    </title>
+    <script src="BMI-Kalkulator.js"></script>
+  </head>
+  <body>
+    <form onsubmit="return BMIKalk();">
+  <h2>BMI-Kalkulator</h2>
+  <h3>
+      Vekt:
+      <input id="bmi-weight" type="number" min="1" max="635" required/> 
+      <span id="bmi-weight-unit">KG</span>
+      <br><br>
+
+      Høyde:
+      <input id="bmi-height" type="number" min="54" max="272" required/>
+      <span id="bmi-height-unit">CM</span>
+      <br><br>
+
+      <input type="submit" value="Kalkuler BMI"/>
+      <div id="bmi-resultat"></div>
+    </h3>
+  </form>
+  </body>
+</html>
