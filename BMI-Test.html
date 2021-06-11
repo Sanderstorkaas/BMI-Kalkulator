@@ -7,8 +7,16 @@
     <script src="BMI-Kalkulator.js"></script>
   </head>
   <body>
-    <form onsubmit="return CalcBMI();">
-  <h1>BMI-Kalkulator</h1>
+    <form onsubmit="return calcBMI();">
+      System:
+      <label>
+        <input type="radio" id="bmi-metric" name="bmi-measure" onchange="measureBMI()" checked/>
+      </label>
+      <label>
+        <input type="radio" id="bmi-imperial" name="bmi-measure" onchange="measureBMI()"/>
+      </label>
+      <br><br>
+
       Vekt:
       <input id="bmi-weight" type="number" min="1" max="635" required/> 
       <span id="bmi-weight-unit">KG</span>
@@ -19,8 +27,8 @@
       <span id="bmi-height-unit">CM</span>
       <br><br>
 
-      <input type="submit" value="Kalkuler BMI"/>
+      <input type="submit" value="Kalkuler-BMI"/>
       <div id="bmi-results"></div>
-  </form>
+    </form>
   </body>
 </html>
